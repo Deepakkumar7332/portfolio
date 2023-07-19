@@ -1,0 +1,126 @@
+body{
+    background-color:whitesmoke;
+    margin:5px 0px 0px 0%;
+}
+header{
+    padding:1%;
+    background-color:white;
+    display: flex;
+    font-family: sans-serif;
+    color: black;
+    margin: 0%;
+}
+header h2{
+    margin-left: 90px;
+}
+header nav ul li {
+    list-style-type: none;
+    margin:10px 25px 0px 25px;
+    padding-bottom: 5px;
+}
+header nav ul{
+    display: flex;
+    margin-left:18pc;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul a:visited{
+    color: black;
+}
+header nav ul a:hover{
+    color: lightcoral;
+    border-bottom:15px;
+    padding-bottom: 5px;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    width:fit-content;
+}
+section .about{
+    padding-top: 40px;
+    margin-top: 35%;
+  }
+  section .content{
+    width: 80%;
+    margin: 40px auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  .about .about-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  section .title span{
+    color: #0E2431;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+  }
+  section .title span::before,
+  section .title span::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: navy;
+    left: 0;
+    bottom: 0;
+  }
+  section .title span::after{
+    bottom: -7px;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .about .about-details .left{
+    width: 45%;
+  }
+  .about .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .about-details .right{
+    width:60%;
+  }
+  section  .topic{
+    color: #0E2431;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .about-details .right p{
+    text-align: justify;
+    padding:0%;
+    word-spacing:5px;
+    line-height:25px;
+    color: #0E2431;
+  }
+  section .button{
+    margin: 16px 0;
+  }
+  section .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #6e93f7;
+    color: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  section .button button:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }
